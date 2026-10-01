@@ -1,0 +1,6 @@
+*.pyc
+*.log
+*.sh
+
+!run_FullRECO.sh
+crab_projects
