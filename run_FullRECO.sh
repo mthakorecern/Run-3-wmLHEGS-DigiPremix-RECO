@@ -42,7 +42,7 @@ if ! [[ "${JOBID}" =~ ^[0-9]+$ ]]; then
 fi
 
 
-PILEUP_DATASET= "/Neutrino_E-10_gun/RunIIISummer24PrePremix-Premixlib2024_140X_mcRun3_2024_realistic_v26-v1/PREMIX"
+PILEUP_DATASET="/Neutrino_E-10_gun/RunIIISummer24PrePremix-Premixlib2024_140X_mcRun3_2024_realistic_v26-v1/PREMIX"
 
 # CRAB numbering starts from 1. Original production convention: JOBINDEX = JOBID - 1
 # RSEED = JOBINDEX * MAX_NTHREADS * 4 + 1001
